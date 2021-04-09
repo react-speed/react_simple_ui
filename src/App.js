@@ -1,10 +1,11 @@
+import React from 'react'
 
-function App() {
+import {Button} from './components'
+
+const App = ()=> {
   return (
     <div className="App">
-      <header className="App-header">
-
-      </header>
+      <Button text={'button'} />
     </div>
   );
 }
