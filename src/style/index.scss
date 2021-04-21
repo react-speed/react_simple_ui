@@ -1,0 +1,16 @@
+// 说明：所有组件样式，统一引入
+
+// config
+@import "variables";
+
+//layout（相当于reset）
+@import "reboot";
+
+//mixin
+@import "mixin";
+
+// animation
+@import "animation";
+
+// button
+@import "../components/Button/style";
